@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Мир цветов</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="">Мир цветов</a>
+        <nav>
+        <ul>
+        <li><button type="button" class="btn btn-primary">Каталог</button></li>
+        <li><button type="button" class="btn btn-primary">Корзина</button></li>
+        <li><button type="button" class="btn btn-primary" id="gpu">Личный кабинет</button></li>
+        </ul>
+        </nav>
+        <div>
+            <ul>
+            <li><button type="button" class="btn btn-outline-info">Вход</button></li>
+            <li><button type="button" class="btn btn-outline-info">Регистрация</button></li>
+            </ul>
+        </div>
+        </header>
+    <main>
+    <div class="wrapper">
+        <section>
+    <h2>Каталог</h2>
+    <ul>
+        <li><nav>
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#">
+                  <span>Страна</span>
+                </a>
+              </li>
+              <a class="page-link" href="#">
+                <span>Название</span>
+              </a>
+                <a class="page-link" href="#">
+                  <span>Цена</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+</li>
+<li>
+    <div class="dropdown">
+            <button class="btn btn-outline-info dropdown-toggle" data-toggle="dropdown">
+              Фильтр
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Цветы</a>
+              <a class="dropdown-item" href="#">Упаковки</a>
+              <a class="dropdown-item" href="#">букеты</a>
+            </div>
+          </div>
+        </li> 
+    </ul>
+    <div class="container">
+        <article data-type="Цветы" data-price="200" data-country="China" data-name="Астра">
+            <img src="pictures/astra.jpeg" alt="">
+            <a href=""><h3>Астра</h3></a>
+            <p>Price <span>200$</span></p>
+            <p>Country <span>China</span></p>
+            <p>Type<span>Цветы</span></p>
+            <button type="button" class="btn btn-warning">Купить</button>
+        </article>
+        <article data-type="Упавковки" data-price="215" data-country="Australia" data-name="Лаванда">
+            <img src="pictures/lavand.jpeg" alt="">
+            <a href=""><h3>Лаванда</h3></a>
+            <p>Price <span>215$</span></p>
+            <p>Country <span>Australia</span></p>
+            <p>Type<span>Упавковки</span></p>
+            <button type="button" class="btn btn-warning">Купить</button>
+        </article>
+        <article data-type="букеты" data-price="362" data-country="Africa" data-name="Герань">
+            <img src="pictures/geran.jpeg" alt="">
+            <a href=""><h3>Герань</h3></a>
+            <p>Price <span>362$</span></p>
+            <p>Country <span>Africa</span></p>
+            <p>Type<span>букеты</span></p>
+            <button type="button" class="btn btn-warning">Купить</button>
+        </article>
+        <article data-type="Цветы" data-price="500" data-country="China" data-name="Роза">
+            <img src="pictures/rose.jpeg" alt="">
+            <a href=""><h3>Роза</h3></a>
+            <p>Price <span>500$</span></p>
+            <p>Country <span>China</span></p>
+            <p>Type<span>Цветы</span></p>
+            <button type="button" class="btn btn-warning">Купить</button>
+        </article>
+        <article data-type="букеты" data-price="220" data-country="Japan" data-name="Сирень">
+            <img src="pictures/siren.jpeg" alt="">
+            <a href=""><h3>Сирень</h3></a>
+            <p>Price <span>220$</span></p>
+            <p>Country <span>Japan</span></p>
+            <p>Type<span>букеты</span></p>
+            <button type="button" class="btn btn-warning">Купить</button>
+        </article>
+        <article data-type="Упавковки" data-price="350" data-country="Russia" data-name="Орхидея">
+            <img src="pictures/orhi.jpeg" alt="">
+            <a href=""><h3>Орхидея</h3></a>
+            <p>Price <span>350$</span></p>
+            <p>Country <span>Russia</span></p>
+            <p>Type<span>Упавковки</span></p>
+            <button type="button" class="btn btn-warning">Купить</button>
+        </article>
+        <article data-type="букеты" data-price="430" data-country="Estonia" data-name="Василёк">
+            <img src="pictures/vasilek.jpeg" alt="">
+            <a href=""><h3>Василёк</h3></a>
+            <p>Price <span>430$</span></p>
+            <p>Country <span>Estonia</span></p>
+            <p>Type<span>букеты</span></p>
+            <button type="button" class="btn btn-warning">Купить</button>
+        </article>
+        <article data-type="Цветы" data-price="625" data-country="Russia" data-name="Гладиолус">
+            <img src="pictures/gladio.jpeg" alt="">
+            <a href=""><h3>Гладиолус</h3></a>
+            <p>Price <span>625$</span></p>
+            <p>Country <span>Russia</span></p>
+            <p>Type<span>Цветы</span></p>
+            <button type="button" class="btn btn-warning">Купить</button>
+        </article>
+        <article data-type="букеты" data-price="140" data-country="America" data-name="Ромашка">
+            <img src="pictures/romashka.jpeg" alt="">
+            <a href=""><h3>Ромашка</h3></a>
+            <p>Price <span>140$</span></p>
+            <p>Country <span>America</span></p>
+            <p>Type<span>букеты</span></p>
+            <button type="button" class="btn btn-warning">Купить</button>
+        </article>
+        <article data-type="букеты" data-price="255" data-country="Iran" data-name="Тюльпан">
+            <img src="pictures/tulpan.jpeg" alt="">
+            <a href=""><h3>Тюльпан</h3></a>
+            <p>Price <span>255$</span></p>
+            <p>Country <span>Iran</span></p>
+            <p>Type<span>букеты</span></p>
+            <button type="button" class="btn btn-warning">Купить</button>
+        </article>
+    </div>
+    </section>
+    </div>
+</main>
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(/fonts/OpenSans-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: OpenSans;
+}
+header{
+    height: 86px;
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+header>a{
+font-weight: 700;
+font-size: 120%;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    column-gap:1vw;
+}
+#gpu{
+    width: 160px;
+}
+header div{
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    column-gap: 3vw;}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: firebrick;
+}
+ul{
+    list-style-type: none;
+}
+select,input,button{
+    height: 40px;
+}
+.wrapper{
+    padding: 0 10%;
+}
+section{
+    padding: 10px 0;
+    display: grid;
+    row-gap: 10px;
+}
+section h2{
+    border-bottom: 1px solid gray;
+    padding: 5px 0;
+    border-top: 1px solid gray;
+}
+section ul{
+    display: flex;
+    align-items: center;
+
+}
+section article{
+    border: 1px solid gray;
+    padding: 10px;
+    display: grid;
+    row-gap: 10px;
+}
+section article p{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+section article p span{
+    justify-self: end;
+    font-weight: bold;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+@media screen and (max-width:412px){
+    section .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
